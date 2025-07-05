@@ -1,0 +1,62 @@
+[app]
+video_source = "pexels"
+hide_config = false
+pexels_api_keys = [ "CShnjYUYrXYhweGB0bTwo53tDAXhjKVIW2PA3JUEWrUpNvBLL0Xd8NMW",]
+pixabay_api_keys = []
+llm_provider = "gemini"
+ollama_base_url = ""
+ollama_model_name = ""
+openai_api_key = ""
+openai_base_url = ""
+openai_model_name = "gpt-4o-mini"
+moonshot_api_key = ""
+moonshot_base_url = "https://api.moonshot.cn/v1"
+moonshot_model_name = "moonshot-v1-8k"
+oneapi_api_key = ""
+oneapi_base_url = ""
+oneapi_model_name = ""
+g4f_model_name = "gpt-3.5-turbo"
+azure_api_key = ""
+azure_base_url = ""
+azure_model_name = "gpt-35-turbo"
+azure_api_version = "2024-02-15-preview"
+gemini_api_key = "AIzaSyA1PHaEqebQskm6lUmmbJ5LoIhsAc1v6VE"
+gemini_model_name = "gemini-2.0-flash"
+qwen_api_key = ""
+qwen_model_name = "qwen-max"
+deepseek_api_key = ""
+deepseek_base_url = "https://api.deepseek.com"
+deepseek_model_name = "deepseek-chat"
+subtitle_provider = "edge"
+endpoint = ""
+material_directory = ""
+enable_redis = false
+redis_host = "localhost"
+redis_port = 1998
+redis_db = 0
+redis_password = ""
+max_concurrent_tasks = 5
+gemini_base_url = "https://generativelanguage.googleapis.com/v1beta/"
+
+[whisper]
+model_size = "large-v3"
+device = "CPU"
+compute_type = "int8"
+
+[proxy]
+
+[azure]
+speech_key = ""
+speech_region = ""
+
+[siliconflow]
+api_key = ""
+
+[ui]
+hide_log = true
+language = "vi"
+tts_server = "azure-tts-v1"
+voice_name = "en-US-BrianNeural-Male"
+font_name = "STHeitiLight.ttc"
+text_fore_color = "#FFFFFF"
+font_size = 56
